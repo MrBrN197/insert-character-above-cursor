@@ -4,7 +4,7 @@
 
 This extension inserts a character which resides above the cursor to the current cursor position, allowing you to quickly duplicate some of the info from the previous line. "Insert character above cursor" extension adds a new command "Insert character above cursor" to the VSCode Command Palette with a dedicated keyboard hotkey `Shift-Cmd/Ctrl-P`.
 
-\!\[Screenshot\]\(images/icac_example.gif\)
+\!\[Screenshot\]\(https://github.com/VKondakoff/insert-character-above-cursor/images/icac_example.gif\)
 
 > "Insert character above cursor" extension mimics the similar functionality available in (g)Vim, where it is bound to the `Cmd/Ctrl-Y` keyboard hotkey in Insert mode: http://vimdoc.sourceforge.net/htmldoc/insert.html. 
 
