@@ -2,7 +2,8 @@
     "name": "insert-character-above-cursor",
     "displayName": "Insert Character Above Cursor",
     "description": "Insert character which is above cursor to the current cursor position",
-    "version": "0.0.1",
+    "version": "1.0.0",
+    "publisher": "VKondakoff",
     "engines": {
         "vscode": "^1.29.0"
     },
@@ -29,7 +30,7 @@
 			}
 		]
     },
-    "icon": "/images/icon.png",
+    "icon": "images/icon.png",
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
         "test": "node ./node_modules/vscode/bin/test"
