@@ -19,7 +19,15 @@
                 "command": "extension.insertCharacterAboveCursor",
                 "title": "Insert character above cursor"
             }
-        ]
+        ],
+        "keybindings": [
+			{
+				"command": "extension.insertCharacterAboveCursor",
+				"key": "ctrl+Y",
+                "mac": "cmd+Y",
+                "when": "editorTextFocus"
+			}
+		]
     },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",

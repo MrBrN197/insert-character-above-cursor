@@ -1,51 +1,26 @@
-# insert-character-above-cursor README
-
-This is the README for your extension "insert-character-above-cursor". After writing up a brief description, we recommend including the following sections.
+# Insert characters above cursor
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+This extension inserts a character which resides above the cursor to the current cursor position, allowing you to quickly duplicate some of the info from the previous line. "Insert character above cursor" extension adds a new command "Insert character above cursor" to the VSCode Command Palette with a dedicated keyboard hotkey `Shift-Cmd/Ctrl-P`.
 
-For example if there is an image subfolder under your extension project workspace:
+\!\[Screenshot\]\(images/icac_example.gif\)
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+> "Insert character above cursor" extension mimics the similar functionality available in (g)Vim, where it is bound to the `Cmd/Ctrl-Y` keyboard hotkey in Insert mode: http://vimdoc.sourceforge.net/htmldoc/insert.html. 
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Nothing will be inserted if there is nothing above the cursor, for example:
+* you are pressing `Cmd/Ctrl-Y` on the first line of the file;
+* there is an empty line before the line where cursor resides;
+* the previous line is quite short and there is nothing above the cursor;
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
 
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Initial release
 
 -----------------------------------------------------------------------------------------------------------
 
