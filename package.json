@@ -2,7 +2,7 @@
     "name": "insert-character-above-cursor",
     "displayName": "Insert Character Above Cursor",
     "description": "Insert character which is above cursor to the current cursor position",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "VKondakoff",
     "engines": {
         "vscode": "^1.29.0"
@@ -22,13 +22,13 @@
             }
         ],
         "keybindings": [
-			{
-				"command": "extension.insertCharacterAboveCursor",
-				"key": "ctrl+Y",
+            {
+                "command": "extension.insertCharacterAboveCursor",
+                "key": "ctrl+Y",
                 "mac": "cmd+Y",
                 "when": "editorTextFocus"
-			}
-		]
+            }
+        ]
     },
     "icon": "images/icon.png",
     "scripts": {
@@ -43,8 +43,8 @@
         "@types/mocha": "^2.2.42"
     },
     "maintainers": [
-		"Valery Kondakoff <vkondakoff@gmail.com>"
-	],
+        "Valery Kondakoff <vkondakoff@gmail.com>"
+    ],
     "contributors": [],
     "repository": {
         "type": "git",
