@@ -15,6 +15,17 @@ Nothing will be inserted if there is nothing above the cursor, for example:
 * there is an empty line before the line where cursor resides;
 * the previous line is quite short and there is nothing above the cursor;
 
+## Donate if you want to support the development:
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="GJBFSQWZSABAG" />
+<input type="image" src="https://www.paypalobjects.com/en_US/RU/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_RU/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+
+
 ## Release Notes
 
 
