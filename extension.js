@@ -11,13 +11,9 @@ function activate(context) {
     // The command has been defined in the package.json file
     // Now provide the implementation of the command with  registerCommand
     // The commandId parameter must match the command field in package.json
-    let disposable = vscode.commands.registerCommand('extension.insertCharacterAboveCursor', function () {
+    let disposable = vscode.commands.registerTextEditorCommand('extension.insertCharacterAboveCursor', function () {
         // current editor
         const editor = vscode.window.activeTextEditor;
-        if (!editor) {
-            vscode.window.showInformationMessage("Open a file first to work with text");
-            return;
-        }
         // TODO: check for the empty line and the end of the string?
         // TODO: introduce the option to insert words instead of characters
         // the Position object gives you the line and character where the cursor is
